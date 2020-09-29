@@ -7,6 +7,6 @@ LOCAL_SRC_FILES := OPLauncher2.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/OPLauncher2
-LOCAL_OVERRIDES_PACKAGES := ParanoidQuickStep Launcher3QuickStep PixelLauncher NexusLauncherRelease TrebuchetQuickStep
+LOCAL_OVERRIDES_PACKAGES := ParanoidQuickStep Launcher3QuickStep Launcher3 PixelLauncher NexusLauncherRelease TrebuchetQuickStep
 
 include $(BUILD_PREBUILT)
