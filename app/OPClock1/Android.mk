@@ -1,0 +1,11 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := OPClock1
+LOCAL_MODULE_STEM := OPClock1.apk
+LOCAL_SRC_FILES := OPClock1.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/app/OPClock1
+
+include $(BUILD_PREBUILT)
